@@ -1,0 +1,57 @@
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 70px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #E6E6E6;
+    background-color: #FFFFFF4D ;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+.submit{
+    border: 1px solid #E70B89;
+    background-color: #E70B89;
+    border-radius: 50px;
+    padding: 12px 100px;
+    margin-top: 25px;
+    color:  #FFFFFF;
+    font-size: small;
+    cursor: pointer;
+}
+.forgot-pass {
+    font-size: small;
+    text-align: end;
+    color: #E70B89;
+    padding: 5px 45px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+span {
+    color: #E70B89;
+    cursor: pointer;
+}
+
+
+input {
+    border-radius: 50px;
+    padding: 10px 15px;
+    border: 1px solid #1A1A1A;
+    background-color: #FFFFFF4D;
+    font-size: medium;
+}
+.no-account{
+    font-size: small;
+
+}
+.log-with{
+    color: #9a9393;
+    font-size: small;
+}

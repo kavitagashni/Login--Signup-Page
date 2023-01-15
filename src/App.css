@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #9D9D9D;
+  width: 370px;
+  height: 660px;
+  margin: 50px auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-logo{
+  width: 250px;
+  height: 160px;
+}
+.perah{
+  width: 350px;
+  font-size: small;
+  margin: auto;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 170px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.login{
+display: none;
+}
+
+.heading p:hover{
+  text-decoration: underline #E70B89 5px;
+  text-underline-offset: 10px;
+}
+
